@@ -1,0 +1,326 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (X11; U; Linux 2.4.18-17.7.x i686) [Netscape]">
+  <title>CMPT 434 Assignment 3 - 2023-2024</title>
+</head>
+<body>
+<img src="splashBanner.gif" align="middle">
+<h1> CMPT 434 - COMPUTER NETWORKS - Winter 2023/2024
+<br>
+University of Saskatchewan
+<br>
+Assignment 3: Transport - Application Layer<br>
+</h1>
+<b>Instructor:</b> Dwight Makaroff <br>
+<b>Out: </b>March 8, 2024<br>
+<b>Due:</b> 9:30PM, April 5, 2024 <br>
+
+<p>Total Marks: 60.
+
+
+<p>This assignment should be implemented in your project teams.</p>
+
+<P> <b>Part A: Transport Layer (20 marks) </b>
+
+<p>
+For all questions in Part A, show your work, so part marks can be
+given for correct reasoning, but faulty mathematical execution.
+
+<ol>
+<li><p>
+<i>(3 marks)</i>
+
+A TCP sender’s value of <i>SRTT</i> is 180ms, but then a routing change
+occurs, after which all measured RTTs are 110ms. How many measurements
+of the new RTT are required before <i>SRTT</i> drops below 130ms? Assume that
+a weight of 0.2 is used for the new sample, and a weight of 0.8
+for the old value, when updating <i>SRTT</i>.
+
+</ul>
+
+<li><p>
+<i>(3 marks)</i>
+
+Suppose that a TCP connection's RTT is 200ms except for
+every <i>N</i><sup>th</sup> RTT, which is 600ms. Note that if <i>N</i>
+is sufficiently large, the 600ms RTT will cause a timeout, since that
+RTT value will be highly "unexpected" (assume here that <i>RTOmin</i>
+is less than 600ms), while if <i>N</i> 
+is small, it may not cause a timeout. After a large number of measured
+RTTs following this pattern (i.e., so that it doesn't matter what the
+values of <i>SRTT</i> and <i>RTTVAR</i> were before this pattern
+started), what is the largest <i>N</i> that <b>doesn't</b> result in
+timeouts (i.e., for which the timeout value remains greater than
+600ms)? Assume that the same weights are used as in question 1 when
+updating <i>SRTT</i>, and weights of 0.3 (new sample) and 0.7 (old
+value) when updating <i>RTTVAR</i>. 
+
+</li>
+
+<li>
+(14 marks)
+
+Suppose that a sender using TCP Reno is observed to have the following
+congestion window sizes, as measured in segments, during each
+transmission "round" spent in slow start or additive increase mode:
+<center>
+<table>
+<tr>
+<td> round </td> <td> <b>cwnd</b> (in segments)</td>
+<td> round </td> <td> <b>cwnd</b> (in segments)</td>
+</tr>
+<tr><td> 1 </td> <td> 1 </td> <td> 14 </td> <td> 40 </td> </tr>
+<tr><td> 2 </td> <td> 2 </td> <td> 15 </td> <td> 41 </td> </tr>
+<tr><td> 3 </td> <td> 4 </td> <td> 16 </td> <td> 42 </td> </tr>
+<tr><td> 4 </td> <td> 8 </td> <td> 17 </td> <td> 21 </td> </tr>
+<tr><td> 5 </td> <td> 16 </td> <td> 18 </td> <td> 22 </td> </tr>
+<tr><td> 6 </td> <td> 32 </td> <td> 19 </td> <td> 23 </td> </tr>
+<tr><td> 7 </td> <td> 33 </td> <td> 20 </td> <td> 24 </td> </tr>
+<tr><td> 8 </td> <td> 34 </td> <td> 21 </td> <td> 25 </td> </tr>
+<tr><td> 9 </td> <td> 35 </td> <td> 22 </td> <td> 26 </td> </tr>
+<tr><td> 10 </td> <td> 36 </td> <td> 23 </td> <td> 1 </td> </tr>
+<tr><td> 11 </td> <td> 37 </td> <td> 24 </td> <td> 2 </td> </tr>
+<tr><td> 12 </td> <td> 38 </td> <td> 25 </td> <td> 4 </td> </tr>
+<tr><td> 13 </td> <td> 39 </td> <td> 26 </td> <td> 8 </td> </tr>
+
+</table>
+</center>
+<ol>
+<li type = "a"> Identify the transmission rounds when TCP is in slow
+  start mode.
+<li type="a"> 
+After the 16<sup>th</sup> transmission round, is segment loss detected by
+a triple duplicate ACK or by a timeout?
+
+<li type="a"> 
+
+After the 22<sup>nd</sup> transmission round, is segment loss detected
+by a triple duplicate ACK or by a timeout?
+
+<li type="a"> 
+What is the initial value of the slow start threshold <i>ssthresh</i> at the
+first transmission round?
+
+<li type="a"> 
+What is the value of <i>ssthresh</i> at the 18<sup>th</sup> transmission round?
+
+<li type="a"> 
+What is the value of <i>ssthresh</i> at the 24<sup>th</sup> transmission round?
+<li type="a"> 
+
+
+Assuming that a segment loss is detected after the 26<sup>th</sup>
+transmission round by the receipt of a triple duplicate ACK, what will
+be the new value of <i>ssthresh</i> and <i>cwnd</i>? 
+</ol>
+</li>
+
+
+</ol>
+
+
+<p> <b>Part B: Application Layer </b> (8 marks).
+
+<ol>
+<li> Suppose that within your Web browser you click on a link to obtain a
+Web page containing a small amount of HTML text, and that this text
+references N (< 5) very small objects on the same server that must
+also be retrieved to present the page. Denote the
+round-trip time between your computer and the server
+by R. Assuming that a DNS lookup is not necessary (the
+required IP address was obtained earlier and cached),
+and that transmission, queueing, and processing times
+are negligible compared to R, as functions of R and N
+how much time elapses with:
+<ol>
+<li type ="a">
+
+Non-persistent HTTP with no parallel TCP connections?
+<li type ="a">
+Non-persistent HTTP with parallel connections?
+<li type ="a">
+Persistent HTTP with no parallel connections, and without pipelining? 
+<li type ="a">
+Persistent HTTP with no parallel connections, but with pipelining?
+</ol>
+
+</ol>
+
+<p> <b>Part C: Delay Tolerant Networking Application</b> (32 marks)
+<p>
+
+In this question, the task is to design and implement a protocol for
+data collection in delay-tolerant, mobile wireless sensor
+networks. 
+
+<p>
+Imagine, for example, a body-area network with vital signs
+of participants being obtained from sensors located on a person's body.
+Periodically (say, once an hour), each sensor node creates a data
+packet containing its recent measurements, and 
+we would like to deliver this data packet to possible base stations that
+have internet connectivity to the health region's database server. The mobile
+base station will frequently be outside the limited
+transmission range of a sensor node, however. Another situation is collection
+from stationary sensors on cameras in a field. Periodically, they generate
+an image. The images must get to a central location, but they are transported
+hop by hop either through neighbouring sensors or by a set of drones that fly
+over the field periodically. The moving drones can use the DTN protocol
+to transfer data to a sink node at the edge of the field.
+
+<p>Epidemic protocols are one approach to solving this 
+problem. Whenever a sensor node comes within range of another sensor
+node, the data packets of each may be copied to the other (analogously
+to the spread of a virus). In this manner, when some sensor node does
+come within range of the base station, it can upload not only its own
+packet, but potentially those of many other nodes as
+well. Unfortunately, this algorithm has the problem that it uses a lot
+of message transmissions, depleting battery power and uses a lot of
+buffer space as packets are kept until the carrier node reaches the
+destination, or until buffer space fills up and packets must be discarded.
+
+<p>
+
+For this question, you will be simulating such a system using multiple
+threads. We will assume <b>N</b> sensor/base station nodes, 
+the first <b>D</b> of which will be
+potential destinations. It is possible for one destination to send to
+another. Each node will be implemented by a separate
+thread, and you will simulate the movements of the sensor nodes (if applicable)
+within the square region formed by the (x,y) coordinates 
+(0,0), (0,1000), (1000,0), (1000,1000). We will make many
+simplifications. For example, we 
+will not model the details of wireless communication, but instead each
+pair of threads will maintain an open TCP connection (so there will be
+(N* (N+1))/2 TCP connections in total), and the threads will exchange
+location information every "time step" that will be used to determine whether
+or not the pair of sensor nodes (or sensor node + base station) are
+close enough to communicate in the simulated system. 
+
+<p>
+Each time step, a packet is generated by a node <b>N</b> to
+destination <b>D</b> with a probability distribution of your choice.
+
+Each sensor node will execute an algorithm of the form outlined below:
+<p>
+
+<ul>
+
+<li>
+pick random start location 
+<li>
+repeat for <b>K</b> timesteps
+
+<ul>
+<li>
+generate data packet for this node and add to local buffer; 
+<li>
+If node is mobile, pick a random direction, and move 
+within the simulated region with a
+speed that is a (node-specific) parameter input by the user (if you
+hit the boundary of the region, assume that the node simply stops
+there until the next time step)
+<li>
+for each of the other N-1 threads 
+<ul>
+<li>
+exchange position information with that thread
+<li>
+if within the simulated transmission range (an input parameter)
+<ul>
+<li>
+if
+the other thread is the destination thread for any packet, then upload and
+delete all buffered data packets for that destination 
+that have not yet been received 
+<li>
+else
+possibly copy packets (policy dependent)
+</ul>
+</ul>
+</ul>
+</ul>
+<p>
+Each node has buffer space for only <b>B</b> packets (an input
+parameter). Also, transmissions consume power, which we assume is a
+scarce resource. So, there is a tradeoff between power usage, and the
+likelihood of a data packet being successfully uploaded to the base
+station. Your protocol should be designed with the objective of
+maximizing the <b>fraction of data packets uploaded</b> to the destinations
+by the end of K time steps, at minimal cost as measured by the <b>number
+of data packet transmissions</b>. (Assume that data packets are
+sufficiently large that their transmission cost dominates other
+costs.) The main output of the simulation should be these two metrics,
+but you will also need a way to optionally provide other output to
+assist the marker (and yourself) in verifying correctness.
+
+<p>
+All parameters should be expressed as command-line arguments. The
+probability distribution functions that you use should be incorporated
+as #ifdef constructs and conditionally compiled. This difference in
+your code behaviour is accomplished by compiler directives in the Makefile.
+<p>
+
+A couple of things to think about when designing your protocol:
+<ol>
+<li>
+What factors should be taken into account when determining whether or
+not to copy data packets to a node that comes within transmission
+range? (E.g., available buffer space at the recipient? number of
+copies already made?) 
+<li> How, if at all, can you limit further
+copying of a packet once it has been uploaded to the destination?
+(E.g., certainly you could delete the packet from the uploading/transmitting
+node, but is there more you can do?)
+</ol>
+
+
+<p>
+<b>FINAL NOTE:</b> All programming practises required for CMPT 332 must be
+followed:
+<ul>
+<li>Check the return values from system calls
+<li>Check the command-line parameters
+<li>Compile with -Wall -pedantic
+<li>Any more defensive programming measures that come to mind.
+<li>Use of C++ features is unnecessary and unacceptable
+</ul>
+
+
+<h3> Hand In Instructions</h3>
+<p>
+
+Create a directory for this assignment:
+<ul>
+  <li> Place in this directory your assignment including the following:</li>
+  <ul>
+    <li>N separate PDF documents named QuestionPartX_Y.pdf (where X is
+    the part number and Y is the number of the question).
+    <li>Source code, header files, and makefile to compile the various
+    binary programs.
+    <li>Git logs for your progress and proper version control
+    practices.
+    <li>Design document: <tt>Design.txt</tt>.
+    <li>Testing showing message transmission and reception and correct
+    operation of the protocol. Comparative testing report (PDF file)
+    with different buffer sizes <b>or</b> other differing parameters
+    and minimal report indicating the performance dependence on the
+    parameters. 
+  </ul>
+
+  <li> Now you are ready to hand in your assignment. To do so you are
+going to make a <span style="font-weight: bold;">tar</span> file, and
+upload it to the Canvas assignment hand-in. All files in the main
+    directory of the tar file, no subdirectories.
+A marking script will then untar the assignment. 
+</li>
+  <li> That's it - you are done.</li>
+</ul>
+
+
+</body>
+</html>
