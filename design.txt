@@ -1,0 +1,134 @@
+Connor Tamme lrk312 11328286
+Mark Jia mij623 11271998
+
+General Problem:
+    -Need N nodes with D of them being base stations or destinations
+    while the rest move around.
+    -Do this for K timesteps
+    -Pass messages to nearby nodes
+    -Nodes need to know ports of others and be able to identify themselves. We
+    will use IDs from 0 to N that when added to a MINPORT gives the port # of
+    the node and the ID is used to identify node.
+
+Optimizations:
+    -Messages have a N byte bytemap (a bitmap would be better but implementing
+    one is outside the scope of the assignment). If the bytemap position for
+    a given node is checked off then don't send to them. This prevents messages
+    from going back to nodes they have already gone through.
+    -Do a 'sync' message to in range nodes that checks if they actually want
+    the desired message. This does mean that more sends are needed, but most
+    of those sends will be smaller as the payload isn't sent. This saves power
+    on large transmissions.
+
+MSG structure:
+  Header:
+    uint16_t destID
+        -ID of destination node. uint16_t as that is a good balance between
+        node count and number of bytes of header
+    uint16_t srcID
+        -ID of source node
+    char msgID
+        -Used along with srcID to essentially give each message a unique 
+        signature. Char as 256 messages before it loops back is enough to
+        avoid 2 messages with the same signature in the system while saving
+        on space
+    char type
+        -Used to show the type of the message to direct how it is handled by
+        the receiver. Char is used as 256 message types is plenty
+    char bytemap[MAXNODES]
+        -used to see if a message has been to a node before.
+  Payload:
+    POS pos
+        -The position of the node. POS struct contains a uint16_t x and y.
+        uint16_t is used as in a 1001x1001 grid that is enough for any position
+
+Psuedocode:
+    General:
+        make N node threads and 1 signaller thread
+        signaller directs nodes and nodes send to each other
+        once timesteps are done all threads close sockets and return
+    Main:
+        check inputs
+        create N node threads and give them IDs in acsending order
+        create a signaller thread with ID MAXNODES
+    Signaller:
+        P(socketSem)
+        Make own socket
+        V(socketSem)
+        P(socketSem) /*This P-ing and V-ing lets everyone finish making their
+        V(socketSem)   own socket before continuing*/
+        for each other node
+            make a socket
+            connect to node's port
+        while (curtimesteps < timesteps)
+            if msg incoming
+                receive it
+                make new connection if its new
+                if its not new
+                    if msg.type == MOVE
+                        increment donemoving
+                    if msg.type == DATA
+                        increment done sending
+                        set waiting to false
+            if all have moved and all have sent
+                start new time step
+                send move message to all not base station nodes
+                reset sent and moved counts
+            if all have moved and not waiting
+                tell the next node to start to send
+        tell all nodes to DIE
+        close all sockets
+        return
+
+    Node:
+        P(socketSem)
+        Make own socket
+        V(socketSem)
+        P(socketSem) /*This P-ing and V-ing lets everyone finish making their
+        V(socketSem)   own socket before continuing*/
+        for each other node
+            make a socket
+            connect to node's port
+        make socket for signaller
+        while (1)
+            if msg incoming
+                receive it
+                make new connection if its new
+                if its not new
+                    if msg.type == WANT
+                        for i in range 0 to bufSize
+                            if buffer[i] has the same srcID and msgID as the
+                            msg the other node wants to send it is a duplicate
+                            if successBuffer[i] has the same srcID and msgID it
+                            is also a duplicate
+                        if the msg the node want to send you is a duplicate
+                            send REJECT to node
+                        otherwise
+                            send ACCEPT to node
+                    if msg.type == POSANS
+                        if |msg.pos.x - mypos.x|+|msg.pos.y - mypos.y| <= range
+                            send a WANT packet for each msg in buffer
+                        triedSend++ /*triedSend means you tried to send to a
+                                      node by checking if they were in range*/
+                    if msg.type == POSREQ
+                        send back current position
+                    if msg.type == ACCEPT
+                        send the node the desired packet from the buffer
+                    if msg.type == DIE
+                        close all sockets
+                        return
+                    if msg.type == NONE or MAKEMSG
+                        if msg.type == MAKEMSG
+                            make a new message and add it to buffer
+                        reset triedSend
+                        send a POSREQ to all other nodes
+                    if msg.type == MOVE
+                        move if not a base station
+                        send MOVE msg to signaller to tell it your done moving
+                    if msg.type == DATA
+                        add it to outgoing buffer if its not for you
+                        add it to successful buffer if it is for you
+            if triedSend >= numbNodes - 1
+                send DATA packet to signaller to tell it you are done sending
+
+

@@ -1,0 +1,74 @@
+Connor Tamme lrk312 11328286
+Mark Jia mij623 11271998
+
+commit 82a0edbcaca6d047cc8c427addc18d880801e462 (HEAD -> Connor-A2)
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sun Apr 7 16:49:59 2024 -0600
+
+    Final touches from me
+
+commit de6fc52be53a22cf27677deb587eb8199f3215f0
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sun Apr 7 16:06:21 2024 -0600
+
+    Made the test output
+
+commit 8fa7fceb84a96fda44ca16a5edcbc051f3c851c1
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sun Apr 7 15:39:10 2024 -0600
+
+    Managed to get this to actually work. Output is formated correctly so it 
+    is done
+
+commit 97ce4d52f7ed48d2c4d15687cc22b655aa3056a3
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sat Apr 6 21:53:55 2024 -0600
+
+    I'm confident that the structure of the code and like 90% of its operation
+    is complete but the messages don't seem to arrive at other threads for 
+    some reason
+
+commit ab9cfcc72e6819e416be401712ca086d0c6987ad
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sat Apr 6 19:54:06 2024 -0600
+
+    Got the sockets to all make correctly and it kinds of works but not
+    really. Need to rewrite some of the signaller to fix some issues first
+
+commit 33cdd61fbba725a5590fadb693f0c211960ae826
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sat Apr 6 17:30:09 2024 -0600
+
+    Got it compling and running, but it doesn't seem to do anything yet
+
+commit 30022bd94a738478f95238621405c859868580d8
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sat Apr 6 16:39:10 2024 -0600
+
+    Finished adding sending and random code. Now to make it compile
+
+commit a0c1898251b7cdb8645cb4c0edd84c69aca9b0e7
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Sat Apr 6 16:20:12 2024 -0600
+
+    Added code to make sockets and send/recv
+
+commit 388ea437aa62f23e6a9d6f4700348fbf682c585b
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Fri Apr 5 20:05:09 2024 -0600
+
+    'Finished' the code for signaller and node threads. They don't work or 
+    compile but I think strucutrally they are good
+
+commit 5d0364733232c6f00b17170efdded98f6ea9fe0f
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Fri Apr 5 18:01:51 2024 -0600
+
+    Added some code for the node thread receiving loop
+
+commit 3721808ce6a1d624b9c79e251fc7d4cce0a09217
+Author: Connor Tamme <lrk312@usask.ca>
+Date:   Fri Apr 5 17:24:47 2024 -0600
+
+    Made some of the protocol file
+

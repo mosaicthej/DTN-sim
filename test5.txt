@@ -1,0 +1,321 @@
+Connor Tamme lrk312 11328286
+Mark Jia mij623 11271998
+
+lrk312@s360-peon12:~/cmpt434/cmpt434-group04/A3> ./A3 2 1 150 100 100 5 >
+test5.txt
+Beginning Timestep: 1
+Node: 1 is moving from x:384 y:287 to x:284 y:287
+Beginning Timestep: 2
+Node: 1 is moving from x:284 y:287 to x:284 y:387
+Beginning Timestep: 3
+Node: 1 is moving from x:284 y:387 to x:184 y:287
+Beginning Timestep: 4
+Node: 1 is moving from x:184 y:287 to x:284 y:387
+Beginning Timestep: 5
+Node: 1 is moving from x:284 y:387 to x:284 y:487
+Beginning Timestep: 6
+Node: 1 is moving from x:284 y:487 to x:384 y:587
+Beginning Timestep: 7
+Node: 1 is moving from x:384 y:587 to x:284 y:587
+Beginning Timestep: 8
+Node: 1 is moving from x:284 y:587 to x:284 y:687
+Beginning Timestep: 9
+Node: 1 is moving from x:284 y:687 to x:384 y:687
+Beginning Timestep: 10
+Node: 1 is moving from x:384 y:687 to x:284 y:587
+Beginning Timestep: 11
+Node: 1 is moving from x:284 y:587 to x:284 y:487
+Beginning Timestep: 12
+Node: 1 is moving from x:284 y:487 to x:384 y:487
+Beginning Timestep: 13
+Node: 1 is moving from x:384 y:487 to x:484 y:487
+Beginning Timestep: 14
+Node: 1 is moving from x:484 y:487 to x:484 y:587
+Beginning Timestep: 15
+Node: 1 is moving from x:484 y:587 to x:384 y:587
+Beginning Timestep: 16
+Node: 1 is moving from x:384 y:587 to x:384 y:487
+Beginning Timestep: 17
+Node: 1 is moving from x:384 y:487 to x:384 y:587
+Beginning Timestep: 18
+Node: 1 is moving from x:384 y:587 to x:284 y:587
+Beginning Timestep: 19
+Node: 1 is moving from x:284 y:587 to x:184 y:587
+Beginning Timestep: 20
+Node: 1 is moving from x:184 y:587 to x:184 y:687
+Beginning Timestep: 21
+Node: 1 is moving from x:184 y:687 to x:184 y:787
+Beginning Timestep: 22
+Node: 1 is moving from x:184 y:787 to x:84 y:787
+Beginning Timestep: 23
+Node: 1 is moving from x:84 y:787 to x:184 y:787
+Beginning Timestep: 24
+Node: 1 is moving from x:184 y:787 to x:284 y:887
+Beginning Timestep: 25
+Node: 1 is moving from x:284 y:887 to x:284 y:987
+Beginning Timestep: 26
+Node: 1 is moving from x:284 y:987 to x:284 y:1000
+Beginning Timestep: 27
+Node: 1 is moving from x:284 y:1000 to x:284 y:1000
+Beginning Timestep: 28
+Node: 1 is moving from x:284 y:1000 to x:284 y:900
+Beginning Timestep: 29
+Node: 1 is moving from x:284 y:900 to x:184 y:800
+Beginning Timestep: 30
+Node: 1 is moving from x:184 y:800 to x:184 y:900
+Beginning Timestep: 31
+Node: 1 is moving from x:184 y:900 to x:184 y:1000
+Beginning Timestep: 32
+Node: 1 is moving from x:184 y:1000 to x:284 y:900
+Beginning Timestep: 33
+Node: 1 is moving from x:284 y:900 to x:384 y:900
+Beginning Timestep: 34
+Node: 1 is moving from x:384 y:900 to x:484 y:1000
+Beginning Timestep: 35
+Node: 1 is moving from x:484 y:1000 to x:584 y:900
+Beginning Timestep: 36
+Node: 1 is moving from x:584 y:900 to x:584 y:1000
+Beginning Timestep: 37
+Node: 1 is moving from x:584 y:1000 to x:584 y:1000
+Beginning Timestep: 38
+Node: 1 is moving from x:584 y:1000 to x:484 y:900
+Beginning Timestep: 39
+Node: 1 is moving from x:484 y:900 to x:584 y:800
+Beginning Timestep: 40
+Node: 1 is moving from x:584 y:800 to x:484 y:700
+Beginning Timestep: 41
+Node: 1 is moving from x:484 y:700 to x:584 y:800
+Beginning Timestep: 42
+Node: 1 is moving from x:584 y:800 to x:684 y:700
+Beginning Timestep: 43
+Node: 1 is moving from x:684 y:700 to x:684 y:600
+Beginning Timestep: 44
+Node: 1 is moving from x:684 y:600 to x:684 y:700
+Beginning Timestep: 45
+Node: 1 is moving from x:684 y:700 to x:584 y:700
+Beginning Timestep: 46
+Node: 1 is moving from x:584 y:700 to x:584 y:600
+Beginning Timestep: 47
+Node: 1 is moving from x:584 y:600 to x:584 y:700
+Beginning Timestep: 48
+Node: 1 is moving from x:584 y:700 to x:584 y:800
+Beginning Timestep: 49
+Node: 1 is moving from x:584 y:800 to x:584 y:700
+Beginning Timestep: 50
+Node: 1 is moving from x:584 y:700 to x:684 y:700
+Beginning Timestep: 51
+Node: 1 is moving from x:684 y:700 to x:784 y:600
+Beginning Timestep: 52
+Node: 1 is moving from x:784 y:600 to x:684 y:600
+Beginning Timestep: 53
+Node: 1 is moving from x:684 y:600 to x:784 y:600
+Beginning Timestep: 54
+Node: 1 is moving from x:784 y:600 to x:884 y:700
+Beginning Timestep: 55
+Node: 1 is moving from x:884 y:700 to x:884 y:600
+Beginning Timestep: 56
+Node: 1 is moving from x:884 y:600 to x:984 y:500
+Beginning Timestep: 57
+Node: 1 is moving from x:984 y:500 to x:884 y:500
+Beginning Timestep: 58
+Node: 1 is moving from x:884 y:500 to x:884 y:600
+Beginning Timestep: 59
+Node: 1 is moving from x:884 y:600 to x:984 y:500
+Beginning Timestep: 60
+Node: 1 is moving from x:984 y:500 to x:884 y:500
+Beginning Timestep: 61
+Node: 1 is moving from x:884 y:500 to x:984 y:600
+Beginning Timestep: 62
+Node: 1 is moving from x:984 y:600 to x:884 y:500
+Beginning Timestep: 63
+Node: 1 is moving from x:884 y:500 to x:884 y:400
+Beginning Timestep: 64
+Node: 1 is moving from x:884 y:400 to x:984 y:400
+Beginning Timestep: 65
+Node: 1 is moving from x:984 y:400 to x:884 y:500
+Beginning Timestep: 66
+Node: 1 is moving from x:884 y:500 to x:784 y:600
+Beginning Timestep: 67
+Node: 1 is moving from x:784 y:600 to x:884 y:600
+Beginning Timestep: 68
+Node: 1 is moving from x:884 y:600 to x:984 y:500
+Beginning Timestep: 69
+Node: 1 is moving from x:984 y:500 to x:884 y:400
+Beginning Timestep: 70
+Node: 1 is moving from x:884 y:400 to x:784 y:300
+Beginning Timestep: 71
+Node: 1 is moving from x:784 y:300 to x:684 y:400
+Beginning Timestep: 72
+Node: 1 is moving from x:684 y:400 to x:584 y:300
+Node: 0 in range of node 1
+Node: 1 in range of node 0
+Packet delivered to node 0
+Beginning Timestep: 73
+Node: 1 is moving from x:584 y:300 to x:684 y:300
+Beginning Timestep: 74
+Node: 1 is moving from x:684 y:300 to x:784 y:300
+Beginning Timestep: 75
+Node: 1 is moving from x:784 y:300 to x:684 y:300
+Beginning Timestep: 76
+Node: 1 is moving from x:684 y:300 to x:684 y:200
+Beginning Timestep: 77
+Node: 1 is moving from x:684 y:200 to x:584 y:300
+Node: 0 in range of node 1
+Node: 1 in range of node 0
+Beginning Timestep: 78
+Node: 1 is moving from x:584 y:300 to x:684 y:400
+Packet delivered to node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Beginning Timestep: 79
+Node: 1 is moving from x:684 y:400 to x:784 y:500
+Beginning Timestep: 80
+Node: 1 is moving from x:784 y:500 to x:784 y:400
+Beginning Timestep: 81
+Node: 1 is moving from x:784 y:400 to x:784 y:300
+Beginning Timestep: 82
+Node: 1 is moving from x:784 y:300 to x:684 y:200
+Beginning Timestep: 83
+Node: 1 is moving from x:684 y:200 to x:584 y:100
+Beginning Timestep: 84
+Node: 1 is moving from x:584 y:100 to x:484 y:0
+Beginning Timestep: 85
+Node: 1 is moving from x:484 y:0 to x:384 y:0
+Beginning Timestep: 86
+Node: 1 is moving from x:384 y:0 to x:384 y:0
+Beginning Timestep: 87
+Node: 1 is moving from x:384 y:0 to x:384 y:0
+Beginning Timestep: 88
+Node: 1 is moving from x:384 y:0 to x:384 y:0
+Beginning Timestep: 89
+Node: 1 is moving from x:384 y:0 to x:484 y:100
+Beginning Timestep: 90
+Node: 1 is moving from x:484 y:100 to x:584 y:200
+Beginning Timestep: 91
+Node: 1 is moving from x:584 y:200 to x:684 y:200
+Beginning Timestep: 92
+Node: 1 is moving from x:684 y:200 to x:584 y:100
+Beginning Timestep: 93
+Node: 1 is moving from x:584 y:100 to x:584 y:200
+Beginning Timestep: 94
+Node: 1 is moving from x:584 y:200 to x:484 y:300
+Node: 0 in range of node 1
+Node: 1 in range of node 0
+Beginning Timestep: 95
+Node: 1 is moving from x:484 y:300 to x:484 y:200
+Beginning Timestep: 96
+Node: 1 is moving from x:484 y:200 to x:384 y:200
+Beginning Timestep: 97
+Node: 1 is moving from x:384 y:200 to x:384 y:100
+Beginning Timestep: 98
+Node: 1 is moving from x:384 y:100 to x:484 y:200
+Beginning Timestep: 99
+Node: 1 is moving from x:484 y:200 to x:384 y:300
+Beginning Timestep: 100
+Node: 1 is moving from x:384 y:300 to x:384 y:200
+Beginning Timestep: 101
+Node: 1 is moving from x:384 y:200 to x:284 y:100
+Beginning Timestep: 102
+Node: 1 is moving from x:284 y:100 to x:384 y:200
+Beginning Timestep: 103
+Node: 1 is moving from x:384 y:200 to x:284 y:100
+Beginning Timestep: 104
+Node: 1 is moving from x:284 y:100 to x:384 y:0
+Beginning Timestep: 105
+Node: 1 is moving from x:384 y:0 to x:384 y:0
+Beginning Timestep: 106
+Node: 1 is moving from x:384 y:0 to x:384 y:0
+Beginning Timestep: 107
+Node: 1 is moving from x:384 y:0 to x:284 y:100
+Beginning Timestep: 108
+Node: 1 is moving from x:284 y:100 to x:384 y:100
+Beginning Timestep: 109
+Node: 1 is moving from x:384 y:100 to x:284 y:0
+Beginning Timestep: 110
+Node: 1 is moving from x:284 y:0 to x:284 y:100
+Beginning Timestep: 111
+Node: 1 is moving from x:284 y:100 to x:184 y:200
+Beginning Timestep: 112
+Node: 1 is moving from x:184 y:200 to x:184 y:300
+Beginning Timestep: 113
+Node: 1 is moving from x:184 y:300 to x:84 y:400
+Beginning Timestep: 114
+Node: 1 is moving from x:84 y:400 to x:184 y:500
+Beginning Timestep: 115
+Node: 1 is moving from x:184 y:500 to x:184 y:400
+Beginning Timestep: 116
+Node: 1 is moving from x:184 y:400 to x:84 y:400
+Beginning Timestep: 117
+Node: 1 is moving from x:84 y:400 to x:0 y:316
+Beginning Timestep: 118
+Node: 1 is moving from x:0 y:316 to x:0 y:316
+Beginning Timestep: 119
+Node: 1 is moving from x:0 y:316 to x:100 y:316
+Beginning Timestep: 120
+Node: 1 is moving from x:100 y:316 to x:0 y:216
+Beginning Timestep: 121
+Node: 1 is moving from x:0 y:216 to x:0 y:216
+Beginning Timestep: 122
+Node: 1 is moving from x:0 y:216 to x:100 y:216
+Beginning Timestep: 123
+Node: 1 is moving from x:100 y:216 to x:200 y:116
+Beginning Timestep: 124
+Node: 1 is moving from x:200 y:116 to x:200 y:16
+Beginning Timestep: 125
+Node: 1 is moving from x:200 y:16 to x:216 y:0
+Beginning Timestep: 126
+Node: 1 is moving from x:216 y:0 to x:216 y:0
+Beginning Timestep: 127
+Node: 1 is moving from x:216 y:0 to x:216 y:100
+Beginning Timestep: 128
+Node: 1 is moving from x:216 y:100 to x:316 y:100
+Beginning Timestep: 129
+Node: 1 is moving from x:316 y:100 to x:416 y:100
+Beginning Timestep: 130
+Node: 1 is moving from x:416 y:100 to x:516 y:200
+Beginning Timestep: 131
+Node: 1 is moving from x:516 y:200 to x:616 y:300
+Node: 0 in range of node 1
+Node: 1 in range of node 0
+Beginning Timestep: 132
+Node: 1 is moving from x:616 y:300 to x:716 y:400
+Beginning Timestep: 133
+Node: 1 is moving from x:716 y:400 to x:716 y:500
+Beginning Timestep: 134
+Node: 1 is moving from x:716 y:500 to x:616 y:400
+Beginning Timestep: 135
+Node: 1 is moving from x:616 y:400 to x:716 y:500
+Beginning Timestep: 136
+Node: 1 is moving from x:716 y:500 to x:816 y:400
+Beginning Timestep: 137
+Node: 1 is moving from x:816 y:400 to x:716 y:400
+Beginning Timestep: 138
+Node: 1 is moving from x:716 y:400 to x:716 y:500
+Beginning Timestep: 139
+Node: 1 is moving from x:716 y:500 to x:616 y:400
+Beginning Timestep: 140
+Node: 1 is moving from x:616 y:400 to x:716 y:400
+Beginning Timestep: 141
+Node: 1 is moving from x:716 y:400 to x:616 y:400
+Beginning Timestep: 142
+Node: 1 is moving from x:616 y:400 to x:716 y:500
+Beginning Timestep: 143
+Node: 1 is moving from x:716 y:500 to x:816 y:400
+Beginning Timestep: 144
+Node: 1 is moving from x:816 y:400 to x:916 y:300
+Beginning Timestep: 145
+Node: 1 is moving from x:916 y:300 to x:1000 y:300
+Beginning Timestep: 146
+Node: 1 is moving from x:1000 y:300 to x:900 y:300
+Beginning Timestep: 147
+Node: 1 is moving from x:900 y:300 to x:900 y:200
+Beginning Timestep: 148
+Node: 1 is moving from x:900 y:200 to x:1000 y:300
+Beginning Timestep: 149
+Node: 1 is moving from x:1000 y:300 to x:1000 y:300
+Beginning Timestep: 150
+Node: 1 is moving from x:1000 y:300 to x:1000 y:200
+Number of Payloads Sent: 42
+Number of Headers Sent: 36
+Number of Packets Delivered: 5

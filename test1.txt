@@ -1,0 +1,1049 @@
+Connor Tamme lrk312 11328286
+Mark Jia mij623 11271998
+
+lrk312@s360-peon12:~/cmpt434/cmpt434-group04/A3> ./A3 15  5 70 50 100 10 > 
+test1.txt
+Beginning Timestep: 1
+Node: 6 is moving from x:762 y:680 to x:762 y:630
+Node: 9 is moving from x:953 y:480 to x:1000 y:433
+Node: 5 is moving from x:810 y:472 to x:860 y:422
+Node: 8 is moving from x:636 y:342 to x:586 y:292
+Node: 7 is moving from x:871 y:133 to x:871 y:83
+Node: 11 is moving from x:596 y:607 to x:596 y:557
+Node: 12 is moving from x:7 y:750 to x:57 y:800
+Node: 10 is moving from x:471 y:663 to x:421 y:713
+Node: 13 is moving from x:218 y:207 to x:168 y:157
+Node: 14 is moving from x:54 y:586 to x:4 y:636
+Beginning Timestep: 2
+Node: 5 is moving from x:860 y:422 to x:810 y:422
+Node: 6 is moving from x:762 y:630 to x:812 y:630
+Node: 11 is moving from x:596 y:557 to x:646 y:557
+Node: 8 is moving from x:586 y:292 to x:536 y:242
+Node: 10 is moving from x:421 y:713 to x:371 y:763
+Node: 14 is moving from x:4 y:636 to x:54 y:686
+Node: 9 is moving from x:1000 y:433 to x:1000 y:383
+Node: 12 is moving from x:57 y:800 to x:57 y:850
+Node: 13 is moving from x:168 y:157 to x:168 y:107
+Node: 7 is moving from x:871 y:83 to x:921 y:133
+Node: 0 in range of node 6
+Node: 6 in range of node 0
+Beginning Timestep: 3
+Node: 6 is moving from x:812 y:630 to x:762 y:680
+Node: 8 is moving from x:536 y:242 to x:486 y:242
+Node: 5 is moving from x:810 y:422 to x:760 y:372
+Node: 11 is moving from x:646 y:557 to x:596 y:557
+Node: 9 is moving from x:1000 y:383 to x:950 y:433
+Node: 14 is moving from x:54 y:686 to x:4 y:636
+Node: 13 is moving from x:168 y:107 to x:218 y:157
+Node: 7 is moving from x:921 y:133 to x:921 y:83
+Node: 12 is moving from x:57 y:850 to x:7 y:850
+Node: 10 is moving from x:371 y:763 to x:421 y:763
+Beginning Timestep: 4
+Node: 5 is moving from x:760 y:372 to x:810 y:422
+Node: 6 is moving from x:762 y:680 to x:812 y:630
+Node: 8 is moving from x:486 y:242 to x:436 y:242
+Node: 9 is moving from x:950 y:433 to x:950 y:483
+Node: 7 is moving from x:921 y:83 to x:971 y:33
+Node: 12 is moving from x:7 y:850 to x:57 y:850
+Node: 10 is moving from x:421 y:763 to x:471 y:813
+Node: 11 is moving from x:596 y:557 to x:646 y:507
+Node: 13 is moving from x:218 y:157 to x:168 y:207
+Node: 14 is moving from x:4 y:636 to x:4 y:686
+Node: 0 in range of node 6
+Node: 4 in range of node 11
+Node: 6 in range of node 0
+Node: 11 in range of node 4
+Beginning Timestep: 5
+Node: 6 is moving from x:812 y:630 to x:812 y:580
+Node: 7 is moving from x:971 y:33 to x:1000 y:33
+Node: 10 is moving from x:471 y:813 to x:421 y:763
+Node: 12 is moving from x:57 y:850 to x:107 y:800
+Node: 14 is moving from x:4 y:686 to x:54 y:686
+Node: 5 is moving from x:810 y:422 to x:860 y:372
+Node: 9 is moving from x:950 y:483 to x:1000 y:483
+Node: 11 is moving from x:646 y:507 to x:596 y:557
+Node: 8 is moving from x:436 y:242 to x:386 y:292
+Node: 13 is moving from x:168 y:207 to x:218 y:257
+Beginning Timestep: 6
+Node: 6 is moving from x:812 y:580 to x:762 y:580
+Node: 5 is moving from x:860 y:372 to x:910 y:322
+Node: 13 is moving from x:218 y:257 to x:218 y:307
+Node: 8 is moving from x:386 y:292 to x:386 y:242
+Node: 7 is moving from x:1000 y:33 to x:1000 y:0
+Node: 10 is moving from x:421 y:763 to x:471 y:713
+Node: 12 is moving from x:107 y:800 to x:57 y:750
+Node: 9 is moving from x:1000 y:483 to x:1000 y:483
+Node: 11 is moving from x:596 y:557 to x:546 y:557
+Node: 14 is moving from x:54 y:686 to x:4 y:636
+Beginning Timestep: 7
+Node: 5 is moving from x:910 y:322 to x:860 y:372
+Node: 6 is moving from x:762 y:580 to x:812 y:530
+Node: 7 is moving from x:1000 y:0 to x:1000 y:0
+Node: 8 is moving from x:386 y:242 to x:436 y:192
+Node: 12 is moving from x:57 y:750 to x:7 y:800
+Node: 9 is moving from x:1000 y:483 to x:1000 y:433
+Node: 10 is moving from x:471 y:713 to x:521 y:763
+Node: 11 is moving from x:546 y:557 to x:546 y:607
+Node: 14 is moving from x:4 y:636 to x:4 y:586
+Node: 13 is moving from x:218 y:307 to x:268 y:357
+Beginning Timestep: 8
+Node: 5 is moving from x:860 y:372 to x:810 y:322
+Node: 6 is moving from x:812 y:530 to x:812 y:580
+Node: 9 is moving from x:1000 y:433 to x:950 y:383
+Node: 11 is moving from x:546 y:607 to x:496 y:557
+Node: 10 is moving from x:521 y:763 to x:521 y:813
+Node: 13 is moving from x:268 y:357 to x:218 y:357
+Node: 14 is moving from x:4 y:586 to x:4 y:636
+Node: 7 is moving from x:1000 y:0 to x:1000 y:0
+Node: 12 is moving from x:7 y:800 to x:57 y:850
+Node: 8 is moving from x:436 y:192 to x:386 y:242
+Beginning Timestep: 9
+Node: 5 is moving from x:810 y:322 to x:860 y:322
+Node: 6 is moving from x:812 y:580 to x:862 y:580
+Node: 8 is moving from x:386 y:242 to x:336 y:192
+Node: 7 is moving from x:1000 y:0 to x:1000 y:0
+Node: 11 is moving from x:496 y:557 to x:496 y:607
+Node: 10 is moving from x:521 y:813 to x:471 y:863
+Node: 12 is moving from x:57 y:850 to x:7 y:900
+Node: 13 is moving from x:218 y:357 to x:218 y:407
+Node: 9 is moving from x:950 y:383 to x:1000 y:333
+Node: 14 is moving from x:4 y:636 to x:0 y:632
+Node: 0 in range of node 6
+Node: 6 in range of node 0
+Beginning Timestep: 10
+Node: 12 is moving from x:7 y:900 to x:0 y:893
+Node: 6 is moving from x:862 y:580 to x:812 y:530
+Node: 9 is moving from x:1000 y:333 to x:1000 y:333
+Node: 10 is moving from x:471 y:863 to x:521 y:863
+Node: 11 is moving from x:496 y:607 to x:546 y:657
+Node: 14 is moving from x:0 y:632 to x:0 y:632
+Node: 13 is moving from x:218 y:407 to x:218 y:357
+Node: 7 is moving from x:1000 y:0 to x:950 y:0
+Node: 5 is moving from x:860 y:322 to x:860 y:272
+Node: 8 is moving from x:336 y:192 to x:386 y:242
+Beginning Timestep: 11
+Node: 7 is moving from x:950 y:0 to x:900 y:50
+Node: 5 is moving from x:860 y:272 to x:810 y:322
+Node: 8 is moving from x:386 y:242 to x:336 y:192
+Node: 6 is moving from x:812 y:530 to x:762 y:530
+Node: 11 is moving from x:546 y:657 to x:496 y:707
+Node: 9 is moving from x:1000 y:333 to x:1000 y:283
+Node: 14 is moving from x:0 y:632 to x:50 y:682
+Node: 10 is moving from x:521 y:863 to x:521 y:913
+Node: 12 is moving from x:0 y:893 to x:0 y:893
+Node: 13 is moving from x:218 y:357 to x:168 y:407
+Node: 3 in range of node 9
+Node: 9 in range of node 3
+Beginning Timestep: 12
+Node: 5 is moving from x:810 y:322 to x:860 y:272
+Node: 6 is moving from x:762 y:530 to x:712 y:580
+Node: 8 is moving from x:336 y:192 to x:336 y:142
+Node: 13 is moving from x:168 y:407 to x:168 y:457
+Node: 12 is moving from x:0 y:893 to x:0 y:943
+Node: 7 is moving from x:900 y:50 to x:850 y:50
+Node: 11 is moving from x:496 y:707 to x:496 y:757
+Node: 14 is moving from x:50 y:682 to x:50 y:632
+Node: 10 is moving from x:521 y:913 to x:571 y:913
+Node: 9 is moving from x:1000 y:283 to x:950 y:233
+Node: 3 in range of node 9
+Node: 9 in range of node 3
+Beginning Timestep: 13
+Node: 5 is moving from x:860 y:272 to x:810 y:222
+Node: 7 is moving from x:850 y:50 to x:900 y:100
+Node: 6 is moving from x:712 y:580 to x:662 y:630
+Node: 8 is moving from x:336 y:142 to x:286 y:192
+Node: 10 is moving from x:571 y:913 to x:621 y:963
+Node: 11 is moving from x:496 y:757 to x:496 y:807
+Node: 9 is moving from x:950 y:233 to x:900 y:233
+Node: 13 is moving from x:168 y:457 to x:218 y:407
+Node: 14 is moving from x:50 y:632 to x:0 y:682
+Node: 12 is moving from x:0 y:943 to x:50 y:993
+Node: 2 in range of node 5
+Node: 3 in range of node 9
+Node: 5 in range of node 2
+Packet delivered to node 2
+Node: 9 in range of node 3
+Beginning Timestep: 14
+Node: 5 is moving from x:810 y:222 to x:810 y:272
+Node: 6 is moving from x:662 y:630 to x:662 y:580
+Node: 7 is moving from x:900 y:100 to x:950 y:150
+Node: 11 is moving from x:496 y:807 to x:546 y:807
+Node: 8 is moving from x:286 y:192 to x:236 y:242
+Node: 12 is moving from x:50 y:993 to x:57 y:1000
+Node: 13 is moving from x:218 y:407 to x:218 y:457
+Node: 9 is moving from x:900 y:233 to x:950 y:233
+Node: 10 is moving from x:621 y:963 to x:658 y:1000
+Node: 14 is moving from x:0 y:682 to x:0 y:682
+Node: 3 in range of node 9
+Node: 7 in range of node 9
+Node: 9 in range of node 7
+Node: 9 in range of node 3
+Packet delivered to node 3
+Beginning Timestep: 15
+Node: 13 is moving from x:218 y:457 to x:268 y:407
+Node: 5 is moving from x:810 y:272 to x:860 y:272
+Node: 6 is moving from x:662 y:580 to x:712 y:530
+Node: 12 is moving from x:57 y:1000 to x:7 y:950
+Node: 11 is moving from x:546 y:807 to x:496 y:807
+Node: 10 is moving from x:658 y:1000 to x:658 y:1000
+Node: 9 is moving from x:950 y:233 to x:900 y:233
+Node: 7 is moving from x:950 y:150 to x:900 y:150
+Node: 14 is moving from x:0 y:682 to x:0 y:682
+Node: 8 is moving from x:236 y:242 to x:286 y:192
+Node: 3 in range of node 9
+Node: 4 in range of node 6
+Node: 5 in range of node 9
+Node: 6 in range of node 4
+Node: 9 in range of node 3
+Node: 9 in range of node 7
+Node: 9 in range of node 5
+Packet delivered to node 3
+Node: 7 in range of node 9
+Node: 9 in range of node 5
+Node: 3 in range of node 9
+Node: 9 in range of node 7
+Node: 7 in range of node 9
+Node: 3 in range of node 9
+Node: 9 in range of node 3
+Node: 3 in range of node 9
+Node: 7 in range of node 9
+Beginning Timestep: 16
+Node: 5 is moving from x:860 y:272 to x:860 y:222
+Node: 8 is moving from x:286 y:192 to x:336 y:192
+Node: 11 is moving from x:496 y:807 to x:496 y:857
+Node: 12 is moving from x:7 y:950 to x:0 y:957
+Node: 14 is moving from x:0 y:682 to x:50 y:732
+Node: 6 is moving from x:712 y:530 to x:762 y:580
+Node: 7 is moving from x:900 y:150 to x:900 y:200
+Node: 9 is moving from x:900 y:233 to x:850 y:183
+Node: 10 is moving from x:658 y:1000 to x:708 y:1000
+Node: 13 is moving from x:268 y:407 to x:318 y:407
+Node: 2 in range of node 9
+Node: 5 in range of node 9
+Node: 5 in range of node 7
+Node: 7 in range of node 5
+Node: 7 in range of node 9
+Node: 7 in range of node 5
+Node: 7 in range of node 9
+Node: 9 in range of node 2
+Node: 9 in range of node 5
+Node: 9 in range of node 7
+Beginning Timestep: 17
+Node: 5 is moving from x:860 y:222 to x:910 y:172
+Node: 10 is moving from x:708 y:1000 to x:708 y:950
+Node: 14 is moving from x:50 y:732 to x:0 y:732
+Node: 7 is moving from x:900 y:200 to x:900 y:150
+Node: 8 is moving from x:336 y:192 to x:286 y:142
+Node: 13 is moving from x:318 y:407 to x:368 y:357
+Node: 11 is moving from x:496 y:857 to x:446 y:907
+Node: 6 is moving from x:762 y:580 to x:762 y:530
+Node: 12 is moving from x:0 y:957 to x:50 y:957
+Node: 9 is moving from x:850 y:183 to x:850 y:233
+Node: 5 in range of node 7
+Node: 7 in range of node 5
+Beginning Timestep: 18
+Node: 5 is moving from x:910 y:172 to x:960 y:172
+Node: 7 is moving from x:900 y:150 to x:850 y:200
+Node: 6 is moving from x:762 y:530 to x:812 y:480
+Node: 10 is moving from x:708 y:950 to x:658 y:950
+Node: 13 is moving from x:368 y:357 to x:368 y:407
+Node: 9 is moving from x:850 y:233 to x:850 y:283
+Node: 8 is moving from x:286 y:142 to x:236 y:142
+Node: 12 is moving from x:50 y:957 to x:100 y:957
+Node: 14 is moving from x:0 y:732 to x:0 y:782
+Node: 11 is moving from x:446 y:907 to x:446 y:957
+Node: 2 in range of node 7
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 7 in range of node 2
+Node: 7 in range of node 9
+Node: 9 in range of node 7
+Beginning Timestep: 19
+Node: 5 is moving from x:960 y:172 to x:1000 y:212
+Node: 7 is moving from x:850 y:200 to x:900 y:200
+Node: 6 is moving from x:812 y:480 to x:812 y:430
+Node: 12 is moving from x:100 y:957 to x:57 y:1000
+Node: 14 is moving from x:0 y:782 to x:0 y:732
+Node: 8 is moving from x:236 y:142 to x:186 y:92
+Node: 11 is moving from x:446 y:957 to x:489 y:1000
+Node: 10 is moving from x:658 y:950 to x:658 y:1000
+Node: 9 is moving from x:850 y:283 to x:800 y:333
+Node: 13 is moving from x:368 y:407 to x:318 y:357
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Beginning Timestep: 20
+Node: 5 is moving from x:1000 y:212 to x:950 y:162
+Node: 6 is moving from x:812 y:430 to x:862 y:430
+Node: 14 is moving from x:0 y:732 to x:0 y:732
+Node: 8 is moving from x:186 y:92 to x:136 y:42
+Node: 10 is moving from x:658 y:1000 to x:658 y:1000
+Node: 7 is moving from x:900 y:200 to x:850 y:150
+Node: 13 is moving from x:318 y:357 to x:368 y:357
+Node: 9 is moving from x:800 y:333 to x:750 y:383
+Node: 11 is moving from x:489 y:1000 to x:489 y:1000
+Node: 12 is moving from x:57 y:1000 to x:57 y:1000
+Beginning Timestep: 21
+Node: 5 is moving from x:950 y:162 to x:950 y:212
+Node: 6 is moving from x:862 y:430 to x:862 y:480
+Node: 8 is moving from x:136 y:42 to x:186 y:92
+Node: 13 is moving from x:368 y:357 to x:368 y:407
+Node: 12 is moving from x:57 y:1000 to x:107 y:1000
+Node: 11 is moving from x:489 y:1000 to x:539 y:950
+Node: 10 is moving from x:658 y:1000 to x:708 y:1000
+Node: 9 is moving from x:750 y:383 to x:750 y:333
+Node: 7 is moving from x:850 y:150 to x:900 y:200
+Node: 14 is moving from x:0 y:732 to x:0 y:732
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Node: 5 in range of node 7
+Packet delivered to node 3
+Node: 7 in range of node 5
+Beginning Timestep: 22
+Node: 5 is moving from x:950 y:212 to x:950 y:162
+Node: 12 is moving from x:107 y:1000 to x:57 y:1000
+Node: 10 is moving from x:708 y:1000 to x:708 y:950
+Node: 8 is moving from x:186 y:92 to x:136 y:142
+Node: 11 is moving from x:539 y:950 to x:589 y:950
+Node: 14 is moving from x:0 y:732 to x:50 y:782
+Node: 9 is moving from x:750 y:333 to x:800 y:383
+Node: 6 is moving from x:862 y:480 to x:812 y:430
+Node: 7 is moving from x:900 y:200 to x:850 y:150
+Node: 13 is moving from x:368 y:407 to x:368 y:457
+Node: 6 in range of node 9
+Node: 9 in range of node 6
+Beginning Timestep: 23
+Node: 5 is moving from x:950 y:162 to x:1000 y:212
+Node: 6 is moving from x:812 y:430 to x:812 y:480
+Node: 14 is moving from x:50 y:782 to x:0 y:732
+Node: 7 is moving from x:850 y:150 to x:900 y:200
+Node: 13 is moving from x:368 y:457 to x:418 y:407
+Node: 9 is moving from x:800 y:383 to x:850 y:333
+Node: 11 is moving from x:589 y:950 to x:539 y:900
+Node: 12 is moving from x:57 y:1000 to x:7 y:1000
+Node: 10 is moving from x:708 y:950 to x:658 y:950
+Node: 8 is moving from x:136 y:142 to x:86 y:142
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Beginning Timestep: 24
+Node: 10 is moving from x:658 y:950 to x:658 y:1000
+Node: 5 is moving from x:1000 y:212 to x:950 y:262
+Node: 7 is moving from x:900 y:200 to x:850 y:150
+Node: 11 is moving from x:539 y:900 to x:589 y:850
+Node: 8 is moving from x:86 y:142 to x:136 y:92
+Node: 13 is moving from x:418 y:407 to x:468 y:457
+Node: 14 is moving from x:0 y:732 to x:0 y:732
+Node: 12 is moving from x:7 y:1000 to x:7 y:1000
+Node: 6 is moving from x:812 y:480 to x:862 y:430
+Node: 9 is moving from x:850 y:333 to x:800 y:333
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Beginning Timestep: 25
+Node: 14 is moving from x:0 y:732 to x:0 y:682
+Node: 6 is moving from x:862 y:430 to x:812 y:380
+Node: 5 is moving from x:950 y:262 to x:1000 y:212
+Node: 12 is moving from x:7 y:1000 to x:7 y:1000
+Node: 13 is moving from x:468 y:457 to x:418 y:407
+Node: 8 is moving from x:136 y:92 to x:136 y:42
+Node: 11 is moving from x:589 y:850 to x:539 y:800
+Node: 10 is moving from x:658 y:1000 to x:608 y:1000
+Node: 7 is moving from x:850 y:150 to x:850 y:200
+Node: 9 is moving from x:800 y:333 to x:750 y:333
+Node: 2 in range of node 7
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 7 in range of node 2
+Beginning Timestep: 26
+Node: 14 is moving from x:0 y:682 to x:50 y:632
+Node: 5 is moving from x:1000 y:212 to x:950 y:262
+Node: 6 is moving from x:812 y:380 to x:812 y:330
+Node: 10 is moving from x:608 y:1000 to x:608 y:1000
+Node: 9 is moving from x:750 y:333 to x:750 y:383
+Node: 12 is moving from x:7 y:1000 to x:0 y:1000
+Node: 7 is moving from x:850 y:200 to x:900 y:250
+Node: 13 is moving from x:418 y:407 to x:418 y:457
+Node: 8 is moving from x:136 y:42 to x:86 y:42
+Node: 11 is moving from x:539 y:800 to x:589 y:800
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 5 in range of node 3
+Node: 5 in range of node 7
+Packet delivered to node 3
+Node: 7 in range of node 3
+Node: 7 in range of node 5
+Packet delivered to node 3
+Beginning Timestep: 27
+Node: 14 is moving from x:50 y:632 to x:0 y:582
+Node: 5 is moving from x:950 y:262 to x:1000 y:312
+Node: 8 is moving from x:86 y:42 to x:136 y:92
+Node: 10 is moving from x:608 y:1000 to x:558 y:950
+Node: 9 is moving from x:750 y:383 to x:700 y:433
+Node: 13 is moving from x:418 y:457 to x:418 y:507
+Node: 7 is moving from x:900 y:250 to x:900 y:300
+Node: 12 is moving from x:0 y:1000 to x:0 y:1000
+Node: 11 is moving from x:589 y:800 to x:539 y:750
+Node: 6 is moving from x:812 y:330 to x:862 y:330
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 4 in range of node 9
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 6 in range of node 7
+Node: 7 in range of node 3
+Node: 7 in range of node 6
+Packet delivered to node 3
+Node: 9 in range of node 4
+Packet delivered to node 4
+Beginning Timestep: 28
+Node: 7 is moving from x:900 y:300 to x:950 y:300
+Node: 5 is moving from x:1000 y:312 to x:1000 y:312
+Node: 14 is moving from x:0 y:582 to x:0 y:582
+Node: 6 is moving from x:862 y:330 to x:812 y:330
+Node: 12 is moving from x:0 y:1000 to x:0 y:1000
+Node: 8 is moving from x:136 y:92 to x:136 y:142
+Node: 11 is moving from x:539 y:750 to x:589 y:700
+Node: 10 is moving from x:558 y:950 to x:508 y:950
+Node: 9 is moving from x:700 y:433 to x:650 y:483
+Node: 13 is moving from x:418 y:507 to x:418 y:457
+Node: 1 in range of node 11
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 4 in range of node 9
+Node: 5 in range of node 3
+Node: 5 in range of node 7
+Packet delivered to node 3
+Node: 7 in range of node 3
+Node: 7 in range of node 5
+Packet delivered to node 3
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 5 in range of node 7
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 11 in range of node 1
+Packet delivered to node 1
+Beginning Timestep: 29
+Node: 6 is moving from x:812 y:330 to x:812 y:280
+Node: 9 is moving from x:650 y:483 to x:700 y:433
+Node: 13 is moving from x:418 y:457 to x:368 y:457
+Node: 12 is moving from x:0 y:1000 to x:0 y:950
+Node: 8 is moving from x:136 y:142 to x:136 y:92
+Node: 7 is moving from x:950 y:300 to x:900 y:250
+Node: 14 is moving from x:0 y:582 to x:0 y:632
+Node: 5 is moving from x:1000 y:312 to x:1000 y:312
+Node: 11 is moving from x:589 y:700 to x:539 y:750
+Node: 10 is moving from x:508 y:950 to x:508 y:900
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 4 in range of node 9
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 7 in range of node 3
+Packet delivered to node 3
+Packet delivered to node 3
+Node: 3 in range of node 5
+Node: 3 in range of node 7
+Node: 9 in range of node 4
+Packet delivered to node 4
+Beginning Timestep: 30
+Node: 10 is moving from x:508 y:900 to x:458 y:950
+Node: 5 is moving from x:1000 y:312 to x:950 y:312
+Node: 7 is moving from x:900 y:250 to x:850 y:200
+Node: 9 is moving from x:700 y:433 to x:750 y:383
+Node: 8 is moving from x:136 y:92 to x:86 y:92
+Node: 6 is moving from x:812 y:280 to x:762 y:280
+Node: 11 is moving from x:539 y:750 to x:539 y:700
+Node: 13 is moving from x:368 y:457 to x:368 y:507
+Node: 12 is moving from x:0 y:950 to x:0 y:950
+Node: 14 is moving from x:0 y:632 to x:50 y:632
+Node: 2 in range of node 6
+Node: 2 in range of node 7
+Node: 3 in range of node 5
+Node: 5 in range of node 3
+Packet delivered to node 3
+Node: 7 in range of node 2
+Node: 6 in range of node 2
+Beginning Timestep: 31
+Node: 5 is moving from x:950 y:312 to x:1000 y:362
+Node: 6 is moving from x:762 y:280 to x:712 y:230
+Node: 7 is moving from x:850 y:200 to x:850 y:250
+Node: 12 is moving from x:0 y:950 to x:0 y:900
+Node: 8 is moving from x:86 y:92 to x:136 y:142
+Node: 9 is moving from x:750 y:383 to x:750 y:333
+Node: 14 is moving from x:50 y:632 to x:100 y:682
+Node: 13 is moving from x:368 y:507 to x:318 y:557
+Node: 10 is moving from x:458 y:950 to x:408 y:950
+Node: 11 is moving from x:539 y:700 to x:489 y:650
+Node: 2 in range of node 6
+Node: 6 in range of node 2
+Beginning Timestep: 32
+Node: 5 is moving from x:1000 y:362 to x:950 y:362
+Node: 6 is moving from x:712 y:230 to x:662 y:180
+Node: 7 is moving from x:850 y:250 to x:800 y:250
+Node: 14 is moving from x:100 y:682 to x:150 y:732
+Node: 8 is moving from x:136 y:142 to x:136 y:192
+Node: 13 is moving from x:318 y:557 to x:268 y:557
+Node: 12 is moving from x:0 y:900 to x:50 y:900
+Node: 11 is moving from x:489 y:650 to x:439 y:650
+Node: 10 is moving from x:408 y:950 to x:408 y:900
+Node: 9 is moving from x:750 y:333 to x:700 y:383
+Node: 2 in range of node 7
+Node: 7 in range of node 2
+Beginning Timestep: 33
+Node: 6 is moving from x:662 y:180 to x:712 y:180
+Node: 5 is moving from x:950 y:362 to x:900 y:412
+Node: 11 is moving from x:439 y:650 to x:489 y:600
+Node: 14 is moving from x:150 y:732 to x:100 y:732
+Node: 8 is moving from x:136 y:192 to x:136 y:142
+Node: 7 is moving from x:800 y:250 to x:850 y:200
+Node: 12 is moving from x:50 y:900 to x:100 y:950
+Node: 13 is moving from x:268 y:557 to x:218 y:607
+Node: 9 is moving from x:700 y:383 to x:750 y:333
+Node: 10 is moving from x:408 y:900 to x:358 y:950
+Node: 2 in range of node 6
+Node: 2 in range of node 7
+Node: 6 in range of node 2
+Node: 7 in range of node 2
+Beginning Timestep: 34
+Node: 5 is moving from x:900 y:412 to x:900 y:462
+Node: 6 is moving from x:712 y:180 to x:662 y:230
+Node: 9 is moving from x:750 y:333 to x:750 y:283
+Node: 7 is moving from x:850 y:200 to x:800 y:250
+Node: 8 is moving from x:136 y:142 to x:86 y:92
+Node: 10 is moving from x:358 y:950 to x:408 y:1000
+Node: 12 is moving from x:100 y:950 to x:50 y:1000
+Node: 13 is moving from x:218 y:607 to x:268 y:657
+Node: 14 is moving from x:100 y:732 to x:150 y:682
+Node: 11 is moving from x:489 y:600 to x:439 y:600
+Node: 2 in range of node 9
+Node: 2 in range of node 7
+Node: 7 in range of node 2
+Node: 7 in range of node 9
+Node: 9 in range of node 2
+Node: 9 in range of node 7
+Beginning Timestep: 35
+Node: 8 is moving from x:86 y:92 to x:36 y:142
+Node: 6 is moving from x:662 y:230 to x:662 y:280
+Node: 13 is moving from x:268 y:657 to x:218 y:707
+Node: 7 is moving from x:800 y:250 to x:750 y:200
+Node: 11 is moving from x:439 y:600 to x:389 y:550
+Node: 14 is moving from x:150 y:682 to x:100 y:682
+Node: 12 is moving from x:50 y:1000 to x:100 y:1000
+Node: 5 is moving from x:900 y:462 to x:850 y:462
+Node: 9 is moving from x:750 y:283 to x:750 y:233
+Node: 10 is moving from x:408 y:1000 to x:458 y:950
+Node: 2 in range of node 9
+Node: 2 in range of node 7
+Node: 7 in range of node 2
+Node: 7 in range of node 9
+Node: 9 in range of node 2
+Node: 9 in range of node 7
+Beginning Timestep: 36
+Node: 5 is moving from x:850 y:462 to x:900 y:512
+Node: 6 is moving from x:662 y:280 to x:712 y:230
+Node: 7 is moving from x:750 y:200 to x:750 y:250
+Node: 8 is moving from x:36 y:142 to x:86 y:142
+Node: 10 is moving from x:458 y:950 to x:458 y:1000
+Node: 12 is moving from x:100 y:1000 to x:100 y:950
+Node: 11 is moving from x:389 y:550 to x:389 y:500
+Node: 13 is moving from x:218 y:707 to x:268 y:657
+Node: 14 is moving from x:100 y:682 to x:100 y:632
+Node: 9 is moving from x:750 y:233 to x:800 y:233
+Node: 2 in range of node 6
+Node: 2 in range of node 9
+Node: 2 in range of node 7
+Node: 6 in range of node 9
+Node: 6 in range of node 7
+Node: 6 in range of node 2
+Packet delivered to node 2
+Node: 7 in range of node 2
+Node: 7 in range of node 6
+Node: 7 in range of node 9
+Node: 9 in range of node 2
+Node: 9 in range of node 6
+Node: 9 in range of node 7
+Beginning Timestep: 37
+Node: 5 is moving from x:900 y:512 to x:850 y:462
+Node: 7 is moving from x:750 y:250 to x:800 y:300
+Node: 9 is moving from x:800 y:233 to x:750 y:233
+Node: 11 is moving from x:389 y:500 to x:389 y:450
+Node: 8 is moving from x:86 y:142 to x:86 y:92
+Node: 13 is moving from x:268 y:657 to x:218 y:607
+Node: 12 is moving from x:100 y:950 to x:50 y:950
+Node: 6 is moving from x:712 y:230 to x:662 y:280
+Node: 14 is moving from x:100 y:632 to x:100 y:582
+Node: 10 is moving from x:458 y:1000 to x:458 y:1000
+Node: 2 in range of node 9
+Node: 9 in range of node 2
+Beginning Timestep: 38
+Node: 5 is moving from x:850 y:462 to x:850 y:412
+Node: 6 is moving from x:662 y:280 to x:712 y:330
+Node: 7 is moving from x:800 y:300 to x:750 y:250
+Node: 9 is moving from x:750 y:233 to x:700 y:233
+Node: 10 is moving from x:458 y:1000 to x:458 y:950
+Node: 11 is moving from x:389 y:450 to x:389 y:500
+Node: 13 is moving from x:218 y:607 to x:218 y:657
+Node: 8 is moving from x:86 y:92 to x:36 y:142
+Node: 12 is moving from x:50 y:950 to x:50 y:1000
+Node: 14 is moving from x:100 y:582 to x:50 y:632
+Node: 2 in range of node 9
+Node: 2 in range of node 7
+Node: 7 in range of node 2
+Node: 7 in range of node 9
+Node: 9 in range of node 2
+Node: 9 in range of node 7
+Beginning Timestep: 39
+Node: 7 is moving from x:750 y:250 to x:750 y:300
+Node: 10 is moving from x:458 y:950 to x:458 y:900
+Node: 14 is moving from x:50 y:632 to x:50 y:582
+Node: 8 is moving from x:36 y:142 to x:0 y:178
+Node: 12 is moving from x:50 y:1000 to x:100 y:950
+Node: 9 is moving from x:700 y:233 to x:650 y:183
+Node: 11 is moving from x:389 y:500 to x:339 y:550
+Node: 13 is moving from x:218 y:657 to x:218 y:707
+Node: 5 is moving from x:850 y:412 to x:800 y:412
+Node: 6 is moving from x:712 y:330 to x:662 y:280
+Beginning Timestep: 40
+Node: 7 is moving from x:750 y:300 to x:700 y:250
+Node: 9 is moving from x:650 y:183 to x:650 y:233
+Node: 5 is moving from x:800 y:412 to x:800 y:362
+Node: 13 is moving from x:218 y:707 to x:268 y:757
+Node: 10 is moving from x:458 y:900 to x:508 y:900
+Node: 14 is moving from x:50 y:582 to x:100 y:632
+Node: 6 is moving from x:662 y:280 to x:662 y:230
+Node: 11 is moving from x:339 y:550 to x:339 y:500
+Node: 8 is moving from x:0 y:178 to x:0 y:178
+Node: 12 is moving from x:100 y:950 to x:50 y:900
+Node: 6 in range of node 9
+Node: 6 in range of node 7
+Node: 7 in range of node 9
+Node: 7 in range of node 6
+Node: 9 in range of node 7
+Node: 9 in range of node 6
+Beginning Timestep: 41
+Node: 5 is moving from x:800 y:362 to x:750 y:362
+Node: 6 is moving from x:662 y:230 to x:662 y:280
+Node: 10 is moving from x:508 y:900 to x:508 y:850
+Node: 8 is moving from x:0 y:178 to x:0 y:178
+Node: 13 is moving from x:268 y:757 to x:218 y:807
+Node: 14 is moving from x:100 y:632 to x:50 y:582
+Node: 7 is moving from x:700 y:250 to x:650 y:200
+Node: 9 is moving from x:650 y:233 to x:650 y:283
+Node: 12 is moving from x:50 y:900 to x:50 y:850
+Node: 11 is moving from x:339 y:500 to x:389 y:550
+Node: 6 in range of node 7
+Node: 6 in range of node 9
+Node: 7 in range of node 6
+Node: 7 in range of node 9
+Node: 9 in range of node 6
+Node: 9 in range of node 7
+Beginning Timestep: 42
+Node: 5 is moving from x:750 y:362 to x:800 y:312
+Node: 6 is moving from x:662 y:280 to x:712 y:330
+Node: 7 is moving from x:650 y:200 to x:700 y:250
+Node: 11 is moving from x:389 y:550 to x:339 y:550
+Node: 12 is moving from x:50 y:850 to x:50 y:900
+Node: 9 is moving from x:650 y:283 to x:600 y:283
+Node: 10 is moving from x:508 y:850 to x:508 y:800
+Node: 13 is moving from x:218 y:807 to x:168 y:757
+Node: 14 is moving from x:50 y:582 to x:0 y:582
+Node: 8 is moving from x:0 y:178 to x:50 y:228
+Node: 6 in range of node 7
+Node: 7 in range of node 6
+Beginning Timestep: 43
+Node: 6 is moving from x:712 y:330 to x:712 y:280
+Node: 8 is moving from x:50 y:228 to x:50 y:178
+Node: 7 is moving from x:700 y:250 to x:700 y:200
+Node: 10 is moving from x:508 y:800 to x:558 y:800
+Node: 12 is moving from x:50 y:900 to x:50 y:850
+Node: 9 is moving from x:600 y:283 to x:600 y:233
+Node: 11 is moving from x:339 y:550 to x:389 y:550
+Node: 13 is moving from x:168 y:757 to x:118 y:757
+Node: 14 is moving from x:0 y:582 to x:0 y:532
+Node: 5 is moving from x:800 y:312 to x:750 y:312
+Node: 2 in range of node 7
+Node: 5 in range of node 6
+Node: 6 in range of node 5
+Node: 6 in range of node 7
+Node: 7 in range of node 2
+Node: 7 in range of node 6
+Beginning Timestep: 44
+Node: 13 is moving from x:118 y:757 to x:118 y:807
+Node: 6 is moving from x:712 y:280 to x:662 y:280
+Node: 5 is moving from x:750 y:312 to x:700 y:262
+Node: 8 is moving from x:50 y:178 to x:0 y:178
+Node: 10 is moving from x:558 y:800 to x:558 y:750
+Node: 9 is moving from x:600 y:233 to x:650 y:283
+Node: 14 is moving from x:0 y:532 to x:0 y:532
+Node: 7 is moving from x:700 y:200 to x:650 y:150
+Node: 12 is moving from x:50 y:850 to x:100 y:800
+Node: 11 is moving from x:389 y:550 to x:439 y:600
+Node: 1 in range of node 10
+Node: 5 in range of node 6
+Node: 5 in range of node 9
+Node: 6 in range of node 5
+Node: 6 in range of node 9
+Node: 9 in range of node 5
+Node: 9 in range of node 6
+Node: 10 in range of node 1
+Packet delivered to node 1
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 45
+Node: 5 is moving from x:700 y:262 to x:650 y:212
+Node: 6 is moving from x:662 y:280 to x:662 y:330
+Node: 7 is moving from x:650 y:150 to x:600 y:200
+Node: 9 is moving from x:650 y:283 to x:650 y:333
+Node: 10 is moving from x:558 y:750 to x:508 y:750
+Node: 13 is moving from x:118 y:807 to x:68 y:757
+Node: 12 is moving from x:100 y:800 to x:150 y:750
+Node: 14 is moving from x:0 y:532 to x:50 y:532
+Node: 8 is moving from x:0 y:178 to x:50 y:128
+Node: 11 is moving from x:439 y:600 to x:389 y:650
+Node: 5 in range of node 7
+Node: 6 in range of node 9
+Node: 7 in range of node 5
+Node: 9 in range of node 6
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 46
+Node: 5 is moving from x:650 y:212 to x:600 y:212
+Node: 7 is moving from x:600 y:200 to x:550 y:150
+Node: 6 is moving from x:662 y:330 to x:612 y:280
+Node: 10 is moving from x:508 y:750 to x:458 y:800
+Node: 12 is moving from x:150 y:750 to x:100 y:750
+Node: 14 is moving from x:50 y:532 to x:50 y:482
+Node: 11 is moving from x:389 y:650 to x:339 y:700
+Node: 9 is moving from x:650 y:333 to x:700 y:333
+Node: 13 is moving from x:68 y:757 to x:68 y:807
+Node: 8 is moving from x:50 y:128 to x:0 y:178
+Node: 5 in range of node 6
+Node: 6 in range of node 5
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 47
+Node: 5 is moving from x:600 y:212 to x:550 y:262
+Node: 12 is moving from x:100 y:750 to x:100 y:700
+Node: 6 is moving from x:612 y:280 to x:562 y:280
+Node: 10 is moving from x:458 y:800 to x:408 y:800
+Node: 11 is moving from x:339 y:700 to x:389 y:750
+Node: 14 is moving from x:50 y:482 to x:0 y:432
+Node: 13 is moving from x:68 y:807 to x:118 y:757
+Node: 8 is moving from x:0 y:178 to x:50 y:228
+Node: 9 is moving from x:700 y:333 to x:700 y:383
+Node: 7 is moving from x:550 y:150 to x:600 y:100
+Node: 5 in range of node 6
+Node: 6 in range of node 5
+Node: 10 in range of node 11
+Node: 11 in range of node 10
+Node: 11 in range of node 10
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 48
+Node: 5 is moving from x:550 y:262 to x:550 y:212
+Node: 6 is moving from x:562 y:280 to x:612 y:330
+Node: 8 is moving from x:50 y:228 to x:0 y:278
+Node: 11 is moving from x:389 y:750 to x:439 y:700
+Node: 7 is moving from x:600 y:100 to x:550 y:100
+Node: 9 is moving from x:700 y:383 to x:750 y:433
+Node: 10 is moving from x:408 y:800 to x:458 y:850
+Node: 14 is moving from x:0 y:432 to x:0 y:432
+Node: 12 is moving from x:100 y:700 to x:150 y:650
+Node: 13 is moving from x:118 y:757 to x:118 y:807
+Beginning Timestep: 49
+Node: 5 is moving from x:550 y:212 to x:500 y:212
+Node: 13 is moving from x:118 y:807 to x:68 y:807
+Node: 11 is moving from x:439 y:700 to x:489 y:650
+Node: 8 is moving from x:0 y:278 to x:0 y:278
+Node: 12 is moving from x:150 y:650 to x:200 y:650
+Node: 6 is moving from x:612 y:330 to x:662 y:380
+Node: 10 is moving from x:458 y:850 to x:508 y:800
+Node: 7 is moving from x:550 y:100 to x:500 y:100
+Node: 14 is moving from x:0 y:432 to x:50 y:432
+Node: 9 is moving from x:750 y:433 to x:700 y:383
+Node: 6 in range of node 9
+Node: 9 in range of node 6
+Beginning Timestep: 50
+Node: 8 is moving from x:0 y:278 to x:50 y:228
+Node: 5 is moving from x:500 y:212 to x:450 y:262
+Node: 6 is moving from x:662 y:380 to x:612 y:430
+Node: 13 is moving from x:68 y:807 to x:68 y:757
+Node: 9 is moving from x:700 y:383 to x:750 y:383
+Node: 12 is moving from x:200 y:650 to x:200 y:600
+Node: 11 is moving from x:489 y:650 to x:439 y:650
+Node: 10 is moving from x:508 y:800 to x:558 y:850
+Node: 14 is moving from x:50 y:432 to x:0 y:382
+Node: 7 is moving from x:500 y:100 to x:500 y:50
+Beginning Timestep: 51
+Node: 5 is moving from x:450 y:262 to x:500 y:212
+Node: 6 is moving from x:612 y:430 to x:662 y:430
+Node: 7 is moving from x:500 y:50 to x:550 y:100
+Node: 9 is moving from x:750 y:383 to x:800 y:433
+Node: 8 is moving from x:50 y:228 to x:0 y:228
+Node: 11 is moving from x:439 y:650 to x:439 y:600
+Node: 10 is moving from x:558 y:850 to x:558 y:900
+Node: 14 is moving from x:0 y:382 to x:50 y:382
+Node: 13 is moving from x:68 y:757 to x:18 y:807
+Node: 12 is moving from x:200 y:600 to x:150 y:600
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Packet delivered to node 4
+Beginning Timestep: 52
+Node: 5 is moving from x:500 y:212 to x:550 y:262
+Node: 8 is moving from x:0 y:228 to x:50 y:278
+Node: 12 is moving from x:150 y:600 to x:200 y:650
+Node: 7 is moving from x:550 y:100 to x:600 y:50
+Node: 6 is moving from x:662 y:430 to x:662 y:380
+Node: 9 is moving from x:800 y:433 to x:850 y:433
+Node: 13 is moving from x:18 y:807 to x:68 y:857
+Node: 14 is moving from x:50 y:382 to x:100 y:432
+Node: 11 is moving from x:439 y:600 to x:389 y:600
+Node: 10 is moving from x:558 y:900 to x:608 y:900
+Beginning Timestep: 53
+Node: 9 is moving from x:850 y:433 to x:850 y:383
+Node: 5 is moving from x:550 y:262 to x:550 y:312
+Node: 6 is moving from x:662 y:380 to x:612 y:380
+Node: 13 is moving from x:68 y:857 to x:18 y:907
+Node: 8 is moving from x:50 y:278 to x:50 y:328
+Node: 7 is moving from x:600 y:50 to x:650 y:50
+Node: 10 is moving from x:608 y:900 to x:558 y:950
+Node: 14 is moving from x:100 y:432 to x:150 y:432
+Node: 12 is moving from x:200 y:650 to x:250 y:700
+Node: 11 is moving from x:389 y:600 to x:339 y:600
+Beginning Timestep: 54
+Node: 5 is moving from x:550 y:312 to x:500 y:262
+Node: 12 is moving from x:250 y:700 to x:300 y:650
+Node: 6 is moving from x:612 y:380 to x:662 y:430
+Node: 8 is moving from x:50 y:328 to x:100 y:278
+Node: 10 is moving from x:558 y:950 to x:558 y:1000
+Node: 9 is moving from x:850 y:383 to x:850 y:433
+Node: 13 is moving from x:18 y:907 to x:68 y:957
+Node: 14 is moving from x:150 y:432 to x:200 y:482
+Node: 11 is moving from x:339 y:600 to x:339 y:550
+Node: 7 is moving from x:650 y:50 to x:700 y:0
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Packet delivered to node 4
+Beginning Timestep: 55
+Node: 11 is moving from x:339 y:550 to x:389 y:500
+Node: 7 is moving from x:700 y:0 to x:750 y:0
+Node: 6 is moving from x:662 y:430 to x:662 y:380
+Node: 5 is moving from x:500 y:262 to x:550 y:262
+Node: 14 is moving from x:200 y:482 to x:200 y:432
+Node: 8 is moving from x:100 y:278 to x:50 y:228
+Node: 12 is moving from x:300 y:650 to x:250 y:650
+Node: 10 is moving from x:558 y:1000 to x:558 y:1000
+Node: 13 is moving from x:68 y:957 to x:68 y:1000
+Node: 9 is moving from x:850 y:433 to x:900 y:433
+Beginning Timestep: 56
+Node: 9 is moving from x:900 y:433 to x:900 y:483
+Node: 11 is moving from x:389 y:500 to x:339 y:550
+Node: 6 is moving from x:662 y:380 to x:712 y:380
+Node: 14 is moving from x:200 y:432 to x:200 y:482
+Node: 10 is moving from x:558 y:1000 to x:558 y:1000
+Node: 8 is moving from x:50 y:228 to x:50 y:278
+Node: 13 is moving from x:68 y:1000 to x:68 y:1000
+Node: 5 is moving from x:550 y:262 to x:500 y:262
+Node: 7 is moving from x:750 y:0 to x:750 y:0
+Node: 12 is moving from x:250 y:650 to x:200 y:600
+Beginning Timestep: 57
+Node: 6 is moving from x:712 y:380 to x:762 y:430
+Node: 5 is moving from x:500 y:262 to x:500 y:312
+Node: 12 is moving from x:200 y:600 to x:150 y:650
+Node: 7 is moving from x:750 y:0 to x:800 y:0
+Node: 14 is moving from x:200 y:482 to x:250 y:482
+Node: 9 is moving from x:900 y:483 to x:850 y:533
+Node: 10 is moving from x:558 y:1000 to x:558 y:1000
+Node: 13 is moving from x:68 y:1000 to x:68 y:1000
+Node: 11 is moving from x:339 y:550 to x:289 y:500
+Node: 8 is moving from x:50 y:278 to x:0 y:328
+Node: 11 in range of node 14
+Node: 14 in range of node 11
+Beginning Timestep: 58
+Node: 6 is moving from x:762 y:430 to x:712 y:430
+Node: 14 is moving from x:250 y:482 to x:250 y:432
+Node: 5 is moving from x:500 y:312 to x:500 y:262
+Node: 8 is moving from x:0 y:328 to x:0 y:328
+Node: 9 is moving from x:850 y:533 to x:900 y:583
+Node: 11 is moving from x:289 y:500 to x:239 y:450
+Node: 7 is moving from x:800 y:0 to x:800 y:0
+Node: 13 is moving from x:68 y:1000 to x:18 y:950
+Node: 12 is moving from x:150 y:650 to x:100 y:700
+Node: 10 is moving from x:558 y:1000 to x:558 y:950
+Node: 11 in range of node 14
+Node: 0 in range of node 9
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Packet delivered to node 4
+Node: 9 in range of node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Packet delivered to node 0
+Node: 11 in range of node 14
+Node: 14 in range of node 11
+Beginning Timestep: 59
+Node: 11 is moving from x:239 y:450 to x:189 y:450
+Node: 5 is moving from x:500 y:262 to x:500 y:212
+Node: 13 is moving from x:18 y:950 to x:68 y:950
+Node: 14 is moving from x:250 y:432 to x:200 y:432
+Node: 6 is moving from x:712 y:430 to x:712 y:380
+Node: 7 is moving from x:800 y:0 to x:850 y:0
+Node: 8 is moving from x:0 y:328 to x:50 y:378
+Node: 12 is moving from x:100 y:700 to x:100 y:750
+Node: 10 is moving from x:558 y:950 to x:608 y:900
+Node: 9 is moving from x:900 y:583 to x:850 y:533
+Node: 11 in range of node 14
+Node: 14 in range of node 11
+Beginning Timestep: 60
+Node: 7 is moving from x:850 y:0 to x:800 y:50
+Node: 9 is moving from x:850 y:533 to x:800 y:583
+Node: 14 is moving from x:200 y:432 to x:250 y:482
+Node: 5 is moving from x:500 y:212 to x:500 y:262
+Node: 13 is moving from x:68 y:950 to x:68 y:900
+Node: 10 is moving from x:608 y:900 to x:658 y:900
+Node: 6 is moving from x:712 y:380 to x:662 y:430
+Node: 12 is moving from x:100 y:750 to x:100 y:800
+Node: 8 is moving from x:50 y:378 to x:50 y:328
+Node: 11 is moving from x:189 y:450 to x:139 y:450
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Packet delivered to node 4
+Beginning Timestep: 61
+Node: 7 is moving from x:800 y:50 to x:850 y:100
+Node: 13 is moving from x:68 y:900 to x:68 y:850
+Node: 6 is moving from x:662 y:430 to x:662 y:480
+Node: 9 is moving from x:800 y:583 to x:850 y:533
+Node: 5 is moving from x:500 y:262 to x:450 y:262
+Node: 12 is moving from x:100 y:800 to x:150 y:850
+Node: 8 is moving from x:50 y:328 to x:50 y:278
+Node: 11 is moving from x:139 y:450 to x:89 y:400
+Node: 14 is moving from x:250 y:482 to x:250 y:432
+Node: 10 is moving from x:658 y:900 to x:708 y:900
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Packet delivered to node 4
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 62
+Node: 6 is moving from x:662 y:480 to x:662 y:530
+Node: 10 is moving from x:708 y:900 to x:658 y:900
+Node: 11 is moving from x:89 y:400 to x:139 y:350
+Node: 13 is moving from x:68 y:850 to x:18 y:850
+Node: 7 is moving from x:850 y:100 to x:900 y:100
+Node: 5 is moving from x:450 y:262 to x:500 y:212
+Node: 8 is moving from x:50 y:278 to x:100 y:278
+Node: 12 is moving from x:150 y:850 to x:200 y:850
+Node: 14 is moving from x:250 y:432 to x:250 y:482
+Node: 9 is moving from x:850 y:533 to x:800 y:483
+Node: 4 in range of node 6
+Node: 6 in range of node 4
+Node: 6 in range of node 4
+Beginning Timestep: 63
+Node: 5 is moving from x:500 y:212 to x:450 y:262
+Node: 7 is moving from x:900 y:100 to x:950 y:100
+Node: 9 is moving from x:800 y:483 to x:800 y:433
+Node: 11 is moving from x:139 y:350 to x:89 y:400
+Node: 10 is moving from x:658 y:900 to x:608 y:900
+Node: 13 is moving from x:18 y:850 to x:18 y:900
+Node: 14 is moving from x:250 y:482 to x:250 y:432
+Node: 6 is moving from x:662 y:530 to x:612 y:580
+Node: 12 is moving from x:200 y:850 to x:150 y:850
+Node: 8 is moving from x:100 y:278 to x:100 y:228
+Beginning Timestep: 64
+Node: 6 is moving from x:612 y:580 to x:562 y:580
+Node: 5 is moving from x:450 y:262 to x:500 y:312
+Node: 7 is moving from x:950 y:100 to x:1000 y:50
+Node: 13 is moving from x:18 y:900 to x:68 y:900
+Node: 8 is moving from x:100 y:228 to x:100 y:178
+Node: 9 is moving from x:800 y:433 to x:850 y:433
+Node: 14 is moving from x:250 y:432 to x:200 y:482
+Node: 10 is moving from x:608 y:900 to x:558 y:950
+Node: 11 is moving from x:89 y:400 to x:39 y:400
+Node: 12 is moving from x:150 y:850 to x:150 y:900
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 65
+Node: 5 is moving from x:500 y:312 to x:450 y:312
+Node: 12 is moving from x:150 y:900 to x:150 y:850
+Node: 6 is moving from x:562 y:580 to x:612 y:580
+Node: 9 is moving from x:850 y:433 to x:800 y:483
+Node: 11 is moving from x:39 y:400 to x:89 y:450
+Node: 10 is moving from x:558 y:950 to x:608 y:900
+Node: 8 is moving from x:100 y:178 to x:100 y:128
+Node: 13 is moving from x:68 y:900 to x:118 y:950
+Node: 14 is moving from x:200 y:482 to x:150 y:432
+Node: 7 is moving from x:1000 y:50 to x:1000 y:50
+Node: 11 in range of node 14
+Node: 14 in range of node 11
+Beginning Timestep: 66
+Node: 11 is moving from x:89 y:450 to x:39 y:400
+Node: 14 is moving from x:150 y:432 to x:100 y:482
+Node: 6 is moving from x:612 y:580 to x:562 y:630
+Node: 7 is moving from x:1000 y:50 to x:950 y:0
+Node: 5 is moving from x:450 y:312 to x:500 y:312
+Node: 12 is moving from x:150 y:850 to x:200 y:850
+Node: 8 is moving from x:100 y:128 to x:50 y:78
+Node: 9 is moving from x:800 y:483 to x:850 y:433
+Node: 10 is moving from x:608 y:900 to x:558 y:900
+Node: 13 is moving from x:118 y:950 to x:68 y:900
+Beginning Timestep: 67
+Node: 5 is moving from x:500 y:312 to x:550 y:362
+Node: 6 is moving from x:562 y:630 to x:562 y:680
+Node: 7 is moving from x:950 y:0 to x:950 y:0
+Node: 8 is moving from x:50 y:78 to x:50 y:128
+Node: 10 is moving from x:558 y:900 to x:558 y:950
+Node: 11 is moving from x:39 y:400 to x:89 y:450
+Node: 9 is moving from x:850 y:433 to x:800 y:433
+Node: 14 is moving from x:100 y:482 to x:50 y:532
+Node: 12 is moving from x:200 y:850 to x:200 y:900
+Node: 13 is moving from x:68 y:900 to x:18 y:850
+Beginning Timestep: 68
+Node: 5 is moving from x:550 y:362 to x:500 y:312
+Node: 7 is moving from x:950 y:0 to x:950 y:0
+Node: 14 is moving from x:50 y:532 to x:50 y:582
+Node: 13 is moving from x:18 y:850 to x:0 y:850
+Node: 8 is moving from x:50 y:128 to x:100 y:78
+Node: 6 is moving from x:562 y:680 to x:612 y:730
+Node: 9 is moving from x:800 y:433 to x:750 y:433
+Node: 11 is moving from x:89 y:450 to x:39 y:450
+Node: 10 is moving from x:558 y:950 to x:608 y:900
+Node: 12 is moving from x:200 y:900 to x:150 y:850
+Node: 1 in range of node 6
+Node: 6 in range of node 1
+Packet delivered to node 1
+Node: 1 in range of node 6
+Beginning Timestep: 69
+Node: 5 is moving from x:500 y:312 to x:550 y:312
+Node: 8 is moving from x:100 y:78 to x:150 y:28
+Node: 6 is moving from x:612 y:730 to x:612 y:780
+Node: 10 is moving from x:608 y:900 to x:608 y:950
+Node: 9 is moving from x:750 y:433 to x:750 y:383
+Node: 11 is moving from x:39 y:450 to x:89 y:450
+Node: 13 is moving from x:0 y:850 to x:50 y:900
+Node: 12 is moving from x:150 y:850 to x:100 y:850
+Node: 7 is moving from x:950 y:0 to x:1000 y:50
+Node: 14 is moving from x:50 y:582 to x:100 y:582
+Node: 6 in range of node 1
+Node: 1 in range of node 6
+Node: 12 in range of node 13
+Node: 13 in range of node 12
+Beginning Timestep: 70
+Node: 5 is moving from x:550 y:312 to x:600 y:362
+Node: 7 is moving from x:1000 y:50 to x:1000 y:50
+Node: 9 is moving from x:750 y:383 to x:800 y:433
+Node: 10 is moving from x:608 y:950 to x:658 y:1000
+Node: 6 is moving from x:612 y:780 to x:662 y:830
+Node: 8 is moving from x:150 y:28 to x:178 y:0
+Node: 12 is moving from x:100 y:850 to x:50 y:850
+Node: 11 is moving from x:89 y:450 to x:39 y:450
+Node: 13 is moving from x:50 y:900 to x:0 y:950
+Node: 14 is moving from x:100 y:582 to x:50 y:632
+Number of Payloads Sent: 817
+Number of Headers Sent: 1206
+Number of Packets Delivered: 36
