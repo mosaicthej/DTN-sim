@@ -77,4 +77,60 @@ I suspect that the model's behavior would be sensitive to each input parameter,
 
 ### Overhead Ratio
 
+Or, the total network traffic in this network.
+
+More traffic means more energy consumption and higher carbon footprint, 
+    especially want to avoid in IoT devices or apocalyptic scenarios.
+
+The baseline can be set with the epidemic protocol, where each node will send
+    to whoever is in its range. In fact, when handled inappropriately, would 
+    lead to buffer contamination and echo chamber, in the end reduce total 
+    messages delivered.
+
+This exposes a lot optimization opportunities, and we approach them by 
+    categorizing the traits message redundancy.
+
+We put them in 2 categories: $\alpha$ and $\beta$. (i.e. "alpha redundancy"
+    and "beta redundancy").
+
+- $\alpha$ redundancy happens when a node who currently is holding the 
+    message, would face to receive the same message again. 
+
+- $\beta$ redundancy happens when a network already had the message, but
+    the message is sent again to other nodes in the network, and the receiving
+    node does not have the message.
+
+$\beta$ redundancy is still contributing to the reliability of the network, 
+    The policy would be dynamic adjusted of how much $\beta$ redundancy want to
+    maintain.
+
+but $\alpha$ redundancy is just a waste of energy and bandwidth, should be 
+avoided at all the times.
+
+Furthermore, the $\alpha$ redundancy can be more fine-grained into 3 types,
+    depending on the topology and time sequence within the network.
+-
+- *primary* or $\alpha_1$: with node A and B. At timestamp $t$, A sends to B.
+    At timestamp $t+1$, A sends to B again.
+- *secondary* or $\alpha_2$: with topology of {A->B, B->C}. At timestamp $t$,
+    A sends to B, B sends to C. At timestamp $t+1$, A sends to C. C would 
+    already have the message from B at timestamp $t$.
+- *tertiary* or $\alpha_3$: This is the most common type of $\alpha$ redundancy.
+    with topology of {A->B, A->C, C->D}. At timestamp $t$, A sends to B and C.
+    At timestamp $t+1$, C sends to D. D would already have the message from C
+
+To avoid this, (need to see the message structures as well), before the message
+    between any two nodes, they should first communicate (to sync) to know the 
+    difference of their knowledge on the messages.
+    Caches may be designed as well to avoid repeated sync within short time.
+
+It might seems to be overhead to send the `SYNC` message, but it would be consisted
+    of entirely just sequence numbers, which can be vectorized and each have 
+    further spatial compressions. It is usually cheaper approach than spending
+    bandwidth on the actual message.
+
+Each node would have a per-node-per-message array, used to mark the sequence
+    number of the message it has received. This will be exchanged with `SYNC`.
+
+
 
