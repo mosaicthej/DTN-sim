@@ -21,15 +21,23 @@ We chose to be based on Epidemic protocols,
 but with some modifications to: **nodes**, **base stations**, **messages** 
 to reduce the overhead and reduce duplicate traffic.
 
+## Input parameters 
+
 This generator would take parameters:
-- 
+-
 - **N**: Number of devices/stations (all nodes)
 - **D**: Number of base stations (destinations)
     Note that, if two destinations are in the same vicinity, 
     they can send messages to each other.
 - **K**: Number of timestamps to simulate (steps)
+- **V**: Speed of the nodes (the length of the speed vector in 2D),
+    Note that the speed is node-specific, so this V is a upper bound.
+    Each node would have a speed vector with a random length between 0 and V.
+    at each timestamp.
 - **B**: Buffer space for each node
-- **
+- **R**: Communication range, once two nodes has distance less than R, 
+    they can communicate.
+
+## Observing Objectives
 
 
-## 
