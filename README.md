@@ -1,3 +1,6 @@
+Connor Tamme lrk312 11328286
+Mark Jia mij623 11271998
+
 # Delay Tolerant Network Simulator
 
 delay-tolerant network simulator and visualization (using curses)
@@ -129,8 +132,10 @@ It might seems to be overhead to send the `SYNC` message, but it would be consis
     further spatial compressions. It is usually cheaper approach than spending
     bandwidth on the actual message.
 
-Each node would have a per-node-per-message array, used to mark the sequence
+Each node would have a **per-node-per-message** array, used to mark the sequence
     number of the message it has received. This will be exchanged with `SYNC`.
 
+With the knowledge of what message the other party is missing and what it has,
+    it would not send a message that the other party has already had.
 
 
