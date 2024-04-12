@@ -82,6 +82,15 @@
 (defun rto_next (srtt rttvar)
   (+ srtt (* 4 rttvar)))
 
+; rtoListFold: (srtt rttvar srtt0 rttvar0 Ss alpha beta) -> RTOs
+; this is simple, first get listfold from rttvarListFold
+; then just do a map to get the RTOs
+(defun rtoListFold (fsrtt frttvar srtt0 rttvar0 Ss alpha beta)
+ (let ((srttrttvarL 
+         (rttvarListFold fsrtt frttvar srtt0 rttvar0 SS alpha beta)))
+  (mapcar (lambda (x) (apply #'rto_next x)) srttrttvarL)))
+
+
 ; get the triplets of (srtt, rttvar, rto) 
 ; from next sample
 (defun rtoTriplet (srtt rttvar sample alpha beta)
