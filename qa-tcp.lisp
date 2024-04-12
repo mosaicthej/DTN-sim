@@ -106,4 +106,22 @@
     (let ((rtoNext (funcall frto srttNext rttvarNext)))
       (list srttNext rttvarNext rtoNext))))
 
+; a-2:
+; find out how many measurements (of uniformal R) are required 
+; to bring RTO below (T) ms.
+; rto_uniform_target
+
+; first, need a func that runs the srtt_next and rttvar_next enough times
+; for that uniform R value so it converges.
+; returns the triplet of (srtt, rttvar, rto)
+(defun rto_uniform_ntimes 
+  (fsrttNext frttvar frto usually unusual mod alpha beta n)
+  (labels ((rto_uniform_ntimes_inner (srtt rttvar iter)
+    (let ((sample (if (= (mod iter mod) 0) unusual usually)))
+      (let ((triplet (rtoTriplet fsrttNext frttvar frto srtt 
+                                 rttvar sample alpha beta)))
+        (if (< iter n) 
+          (rto_uniform_ntimes_inner (car triplet) (cadr triplet) (+ 1 iter))
+          triplet)))))
+  (rto_uniform_ntimes_inner 0 0 0)))
 
