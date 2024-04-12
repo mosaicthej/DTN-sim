@@ -100,10 +100,10 @@
 
 ; get the triplets of (srtt, rttvar, rto) 
 ; from next sample
-(defun rtoTriplet (srtt rttvar sample alpha beta)
-  (let ((rttvarNext (rttvar_next rttvar srtt sample beta))
-        (srttNext (srtt_next srtt sample alpha)))
-    (let ((rtoNext (rto_next srttNext rttvarNext)))
+(defun rtoTriplet (fsrtt frttvar frto srtt rttvar sample alpha beta)
+  (let ((rttvarNext (funcall frttvar rttvar srtt sample beta))
+        (srttNext (funcall fsrtt srtt sample alpha)))
+    (let ((rtoNext (funcall frto srttNext rttvarNext)))
       (list srttNext rttvarNext rtoNext))))
 
 
