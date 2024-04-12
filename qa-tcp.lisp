@@ -46,11 +46,11 @@
 ; How many measurements of the new RTT are required 
 ; before SRTT drops below 130ms?
 
-(defun srtt_uniform_target (srttNextf init unisample alpha target)
+(defun srtt_uniform_target (fsrttNext init unisample alpha target)
   (labels ((srtt_uniform_target_inner (srttNow target comparator iter)
     (if (funcall comparator srttNow target) iter
       (srtt_uniform_target_inner
-        (funcall srttNextf srttNow unisample alpha) 
+        (funcall fsrttNext srttNow unisample alpha) 
         target comparator (+ 1 iter)))))
   (srtt_uniform_target_inner init target #'< 0)))
 
