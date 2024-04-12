@@ -73,7 +73,9 @@
     (funcall fsrtt srtt0 (car Ss) alpha)
     (funcall frttvar rttvar0 srtt0 (car Ss) beta)
     ; Xs: samples
-    (cdr Ss)))
+   Ss))
+; e.g.:
+; (rttvarlistfold #'srtt_next #'rttvar_next 180 90 '(110 110 110) 0.8 0.7)
 
 ; after srtt and rttvar is calculated, 
 ; RTO <- SRTT + 4 * RTTVAR
