@@ -47,4 +47,22 @@
         target comparator (+ 1 iter)))))
   (srtt_uniform_target_inner init target #'< 0)))
 
+; rttvar <- (1 - \beta) * RTTVAR + \beta * |SRTT - R'| 
+(defun rttvar_next (rttvar srtt sample beta)
+  (+ (* (- 1 beta) rttvar)
+     (* beta (abs (- sample srtt)))))
+
+; after srtt and rttvar is calculated, 
+; RTO <- SRTT + 4 * RTTVAR
+(defun rto_next (srtt rttvar)
+  (+ srtt (* 4 rttvar)))
+
+; get the triplets of (srtt, rttvar, rto) 
+; from next sample
+(defun rtoTriplet (srtt rttvar sample alpha beta)
+  (let ((rttvarNext (rttvar_next rttvar srtt sample beta))
+        (srttNext (srtt_next srtt sample alpha)))
+    (let ((rtoNext (rto_next srttNext rttvarNext)))
+      (list srttNext rttvarNext rtoNext))))
+
 
