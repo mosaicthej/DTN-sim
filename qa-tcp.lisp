@@ -125,3 +125,12 @@
           triplet)))))
   (rto_uniform_ntimes_inner 0 0 0)))
 
+; then, found out max mod that brings RTO below target
+(defun q2_query
+  (n target)
+    (labels ((q2_query_inner (iterMod) 
+      (let ((triplet (rto_uniform_ntimes #'srtt_next #'rttvar_next #'rto_next
+                      200 600 (+ 1 iterMod) 0.8 0.7 n)))
+        (if (< (caddr triplet) target) (- iterMod 1)
+          (q2_query_inner (+ 1 iterMod))))))
+            (q2_query_inner 1)))
